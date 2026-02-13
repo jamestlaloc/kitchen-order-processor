@@ -11,7 +11,7 @@ function processOrders(orders) {
     const processedOrder = {
       table: order.table,
       item: order.item,
-      status: status
+      status
     };
 
     processedOrders.push(processedOrder);
