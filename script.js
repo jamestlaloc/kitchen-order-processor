@@ -8,8 +8,8 @@ function processOrders(orderList) {
       table: order.table,
       item: order.item,
       status
-    };
-  }
+  };
+  });
 }
 
 let result = processOrders(orders);
