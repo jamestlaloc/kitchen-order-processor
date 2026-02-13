@@ -1,9 +1,9 @@
 let orders = [{table: 1, item: "Burger", priority: false}, {table: 2, item: "Fries", priority: true}, {table: 3, item: "Coke", priority: false}];
 
-function processOrders(orders) {
+function processOrders(orderList) {
   const processedOrders = [];
 
-  for(let i = 0; i < orders.length; i++){
+  for(let i = 0; i < orderList.length; i++){
     const order = orders[i];
 
     const status = order.priority ? "priority" : "normal";
