@@ -4,7 +4,7 @@ function processOrders(orderList) {
   return orderList.map(function (order){
     const status = order.priority ? "priority" : "normal";
 
-    return processedOrder = {
+    return {
       table: order.table,
       item: order.item,
       status
